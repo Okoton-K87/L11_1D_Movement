@@ -1,4 +1,4 @@
-**Cubey**
+**L11: 1D _ Movement**
 
 An example of how to display sprites using Phaser 3.
 
