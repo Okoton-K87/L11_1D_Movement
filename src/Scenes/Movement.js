@@ -10,8 +10,8 @@ class Movement extends Phaser.Scene {
         this.my = {sprite: {}};
 
         //Create constants for the character location
-        this.bodyX = 300;
-        this.bodyY = 350;
+        this.bodyX = 500;
+        this.bodyY = 450;
 
     }
 
@@ -66,9 +66,9 @@ class Movement extends Phaser.Scene {
             this.time.addEvent({
                 delay: 50,
                 callback: () => {
-                    projectile.y -= 30;  // Increasing the step size
+                    projectile.y -= 60 ;  // Increasing the step size
                 },
-                repeat: 25  // Adjusted to ensure it covers the distance to the top
+                repeat: 50  // Adjusted to ensure it covers the distance to the top
             });
             
 
